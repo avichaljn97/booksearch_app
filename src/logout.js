@@ -13,7 +13,6 @@ function Logout(){
     return(
         <div>
     <GoogleLogout
-        clientId="122632606002-5h38f93miqusn2j7bs8ob8jdm4o05bm5.apps.googleusercontent.com"
         buttonText="Logout"
         onRequest={logoutfn}
         onLogoutSuccess={logoutfn}
