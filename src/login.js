@@ -39,7 +39,6 @@ function Login(){
         <div className="btn_conatiner">
         <GoogleLogin
         className="signin_btn"
-          clientId="122632606002-5h38f93miqusn2j7bs8ob8jdm4o05bm5.apps.googleusercontent.com"
           buttonText="Login"
           onSuccess={startSession}
           onFailure={responseGoogle}
